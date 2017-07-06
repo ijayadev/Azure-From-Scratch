@@ -1,0 +1,13 @@
+D:\Azure Jump Start\Code\billing-dotnet-ratecard-api-master\ConsoleApp-Billing-RateCard\ConsoleProj\bin\Debug\ARMAPI_Test.exe.config
+D:\Azure Jump Start\Code\billing-dotnet-ratecard-api-master\ConsoleApp-Billing-RateCard\ConsoleProj\bin\Debug\ARMAPI_Test.exe
+D:\Azure Jump Start\Code\billing-dotnet-ratecard-api-master\ConsoleApp-Billing-RateCard\ConsoleProj\bin\Debug\ARMAPI_Test.pdb
+D:\Azure Jump Start\Code\billing-dotnet-ratecard-api-master\ConsoleApp-Billing-RateCard\ConsoleProj\bin\Debug\Microsoft.Azure.Documents.Client.dll
+D:\Azure Jump Start\Code\billing-dotnet-ratecard-api-master\ConsoleApp-Billing-RateCard\ConsoleProj\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Azure Jump Start\Code\billing-dotnet-ratecard-api-master\ConsoleApp-Billing-RateCard\ConsoleProj\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\Azure Jump Start\Code\billing-dotnet-ratecard-api-master\ConsoleApp-Billing-RateCard\ConsoleProj\bin\Debug\Newtonsoft.Json.dll
+D:\Azure Jump Start\Code\billing-dotnet-ratecard-api-master\ConsoleApp-Billing-RateCard\ConsoleProj\bin\Debug\RestSharp.dll
+D:\Azure Jump Start\Code\billing-dotnet-ratecard-api-master\ConsoleApp-Billing-RateCard\ConsoleProj\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\Azure Jump Start\Code\billing-dotnet-ratecard-api-master\ConsoleApp-Billing-RateCard\ConsoleProj\bin\Debug\Newtonsoft.Json.xml
+D:\Azure Jump Start\Code\billing-dotnet-ratecard-api-master\ConsoleApp-Billing-RateCard\ConsoleProj\bin\Debug\RestSharp.xml
+D:\Azure Jump Start\Code\billing-dotnet-ratecard-api-master\ConsoleApp-Billing-RateCard\ConsoleProj\obj\Debug\ARMAPI_Test.exe
+D:\Azure Jump Start\Code\billing-dotnet-ratecard-api-master\ConsoleApp-Billing-RateCard\ConsoleProj\obj\Debug\ARMAPI_Test.pdb
