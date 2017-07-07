@@ -1,0 +1,111 @@
+girish@Azure:~$ azure
+
+info:             _    _____   _ ___ ___
+info:            /_\  |_  / | | | _ \ __|
+info:      _ ___/ _ \__/ /| |_| |   / _|___ _ _
+info:    (___  /_/ \_\/___|\___/|_|_\___| _____)
+info:       (_______ _ _)         _ ______ _)_ _
+info:              (______________ _ )   (___ _ _)
+info:
+info:    Microsoft Azure: Microsoft's Cloud Platform
+info:
+info:    Tool version 0.10.14
+help:
+help:    Display help for a given command
+help:      help [options] [command]
+help:
+help:    Log in to an Azure subscription using Active Directory or a Microsoft account identity.
+help:      login [options]
+help:
+help:    Log out from Azure subscription using Active Directory. Currently, the user can log out only via Microsoft organizational account
+help:      logout [options] [username]
+help:
+help:    Open the portal in a browser
+help:      portal [options]
+help:
+help:    Manages the data collection preference.
+help:      telemetry [options]
+help:
+help:    Commands:
+help:      account          Commands to manage your account information and publish settings
+help:      acs              Commands to manage your container services.
+help:      ad               Commands to display Active Directory objects
+help:      appserviceplan   Commands to manage your Azure appserviceplans
+help:      availset         Commands to manage your availability sets.
+help:      batch            Commands to manage your Batch objects
+help:      cdn              Commands to manage Azure Content Delivery Network (CDN)
+help:      config           Commands to manage your local settings
+help:      datalake         Commands to manage your Data Lake objects
+help:      feature          Commands to manage your features
+help:      group            Commands to manage your resource groups
+help:      hdinsight        Commands to manage HDInsight clusters and jobs
+help:      insights         Commands related to monitoring Insights (events, alert rules, autoscale settings, metrics)
+help:      iothub           Commands to manage your Azure IoT hubs
+help:      keyvault         Commands to manage key vault instances in the Azure Key Vault service
+help:      lab              Commands to manage your DevTest Labs
+help:      location         Commands to get the available locations
+help:      managed-disk     Commands to manage your disks.
+help:      managed-image    Commands to manage your images.
+help:      managed-snapshot Commands to manage your snapshots.
+help:      network          Commands to manage network resources
+help:      policy           Commands to manage your policies on ARM Resources.
+help:      powerbi          Commands to manage your Azure Power BI Embedded Workspace Collections
+help:      provider         Commands to manage resource provider registrations
+help:      quotas           Command to view your aggregated Azure quotas
+help:      rediscache       Commands to manage your Azure Redis Cache(s)
+help:      resource         Commands to manage your resources
+help:      role             Commands to manage role definitions
+help:      servermanagement Commands to manage Azure Server Managment resources
+help:      servicefabric    Commands to manage your Azure Service Fabric
+help:      storage          Commands to manage your Storage objects
+help:      tag              Commands to manage your resource manager tags
+help:      usage            Command to view your aggregated Azure usage data
+help:      vm               Commands to manage your virtual machines
+help:      vmss             Commands to manage your virtual machine scale sets.
+help:      vmssvm           Commands to manage your virtual machine scale set vm.
+help:      webapp           Commands to manage your Azure webapps
+help:
+help:    Options:
+help:      -h, --help     output usage information
+help:      -v, --version  output the application version
+help:
+help:    Current Mode: arm (Azure Resource Management)
+
+girish@Azure:~$ azure usage
+
+help:    Command to view your aggregated Azure usage data
+help:
+help:    List the usage aggregates for a provided time range. When --json flag is used, it will get the information from all the pages and then provide the final json a
+rray.
+help:      usage list [options] [reportedStartTime] [reportedEndTime]
+help:
+help:    Options:
+help:      -h, --help  output usage information
+help:
+help:    Current Mode: arm (Azure Resource Management)
+
+girish@Azure:~$ azure usage list
+
+info:    Executing command usage list
+reportedStartTime:  5/7/2017
+reportedEndTime:  7/7/2017
+/data:    Usage Start                              Usage End                                Meter Category     Meter Name
+     Quantity
+data:    ---------------------------------------  ---------------------------------------  -----------------  ----------------------------------------------------------
+--  ---------------
+data:    Mon Jun 05 2017 00:00:00 GMT+0000 (UTC)  Tue Jun 06 2017 00:00:00 GMT+0000 (UTC)  Virtual Machines   Compute Hours
+    0.516677 Hours
+data:    Mon Jun 05 2017 00:00:00 GMT+0000 (UTC)  Tue Jun 06 2017 00:00:00 GMT+0000 (UTC)  Networking         IP Address Hours
+    0.2 Hours
+data:    Mon Jun 05 2017 00:00:00 GMT+0000 (UTC)  Tue Jun 06 2017 00:00:00 GMT+0000 (UTC)  Networking         Data Transfer Out (GB)
+    0.004549 GB
+data:    Mon Jun 05 2017 00:00:00 GMT+0000 (UTC)  Tue Jun 06 2017 00:00:00 GMT+0000 (UTC)  Networking         Data Transfer In (GB)
+    0.002028 GB
+data:    Wed Jun 07 2017 00:00:00 GMT+0000 (UTC)  Thu Jun 08 2017 00:00:00 GMT+0000 (UTC)  Data Management    Standard IO - Block Blob Read Operation Units (in 10,000s)
+    0.0286 10,000s
+data:    Wed Jun 07 2017 00:00:00 GMT+0000 (UTC)  Thu Jun 08 2017 00:00:00 GMT+0000 (UTC)  Networking         Data Transfer In (GB)
+    0.000112 GB
+data:    Wed Jun 07 2017 00:00:00 GMT+0000 (UTC)  Thu Jun 08 2017 00:00:00 GMT+0000 (UTC)  Networking         Data Transfer In (GB)
+    0.012103 GB
+data:    Wed Jun 07 2017 00:00:00 GMT+0000 (UTC)  Thu Jun 08 2017 00:00:00 GMT+0000 (UTC)  Networking         Data Transfer Out (GB)
+    0.000584 GB
